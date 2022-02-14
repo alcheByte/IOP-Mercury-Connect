@@ -1,0 +1,144 @@
+{
+    "common": {
+        "cancel": "Cancel",
+        "ok": "OK",
+        "import": "Import",
+        "no": "No",
+        "yes": "Yes",
+        "error": "Error",
+        "success": "Success",
+        "confirm": "Confirm",
+        "settings": "Settings",
+        "support": "Support",
+        "detach": "Detach Device",
+        "optional" : "Optional",
+        "done" : "Done",
+        "tryagain": "Try Again",
+        "back": "Back",
+        "minutes": "minutes",
+        "for": "for",
+        "next": "Next"
+    },
+    "lock_screen": {
+        "pin_enter": "Enter PIN",
+        "pin_confirm": "Confirm PIN",
+        "pin_error": "PIN doesn't match, try again...",
+        "pwd_enter": "Enter Password",
+        "pwd_confirm": "Confirm Password",
+        "pwd_error": "Password doesn't match, try again...",
+        "biometric": "Verify ID"
+    },
+    "settings": {
+        "network": "Network",
+        "current_lang": "Language",
+        "support": "Support",
+        "net_prod": "Production (mainnet)",
+        "net_staging": "Staging (testnet)",
+        "lock_option": "Lock screen",
+        "lock_option_none": "None",
+        "lock_option_pin": "PIN",
+        "lock_option_password": "Password",
+        "lock_schedule": "Lock when",
+        "lock_sched_onstart": "App launches",
+        "lock_sched_onactivate": "App is activated",
+        "lock_sched_inactiveFor": "App is inactive"
+    },
+    "support": {
+        "username": "Username (account ID)...",
+        "username_copied": "Your generated username has been copied to the clipboard. Please paste this username into any support requests involving your account.",
+        "terms": "Terms and Conditions...",
+        "privacy": "Privacy Policy...",
+        "help": "More help...",
+        "discord": "Discord Community..."
+    },
+    "app": {
+        "create_account_alert": "Account Created!",
+        "create_account_message": "Your Wallet Key has been copied to the clipboard, please save it in a safe place so you can recover your account if needed.",
+        "import_pk_success": "Wallet Key imported successfully!\nWelcome to Plutus :)",
+        "detach_alert": "Detach Device?",
+        "detach_message": "This will remove your Wallet Key from your secure storage permanently. Your account will not be deleted. To use this account on another device you will need to import the Wallet Key on that device.",
+        "detach_confirm_have": "Yes, I have my Wallet Key saved already.",
+        "detach_confirm_copy": "Yes, but copy my Wallet Key to the clipboard so I can save it now.",
+        "detach_confirm_cancel": "No, I don't want to remove my Wallet Key.",
+        "delete_pk_success": "Wallet Key copied to clipboard:\n'{{key}}'"
+    },
+    "welcome": {
+        "headline": "Welcome to Mercury!",
+        "intro": "Before you can Connect with this device, you need to either create a new wallet or restore one from a seed.",
+        "create_hint": "If this is your first time using Mercury, use Create Wallet",
+        "restore_hint": "If you have a seed for a wallet and you want to use it on this device, use Restore Wallet",
+        "btn_create": "Create Wallet",
+        "btn_restore": "Restore Wallet"
+    },
+    "create": {
+        "created": "Wallet Created!",
+        "description": "The seed for your new wallet has been created! You alone have this seed. If you lose or replace your device you can use this seed to restore your wallet and it's contents. There are {{seedCount}} words in your seed. You will need to write them down (or otherwise save them) in the order given here. Anyone who gets your seed will be able to take over your account so be sure to save it in a secure place!",
+        "warning": "Failure to properly store your seed can result in the loss of your profiles and access to any dApps and/or content owned or accessed by them.",
+        "word_num": "Word #{{num}}",
+        "continue": "Backup this word and tap or swipe for next",
+        "done": "Connect"
+    },
+    "restore": {
+        "description": "To restore a wallet you will need your seed words that you saved when you created your account",
+        "enter_word": "Enter word #{{num}} and swipe for next...",
+        "last_word": "Enter word #{{num}} and tap Restore",
+        "done": "Restore"
+    },
+    "login": {
+        "bad_pin": "Incorrect PIN, try again..."
+    },
+    "homes": {
+        "tab": "Homes"
+    },
+    "profiles": {
+        "tab": "Profiles"
+    },
+    "contacts": {
+        "tab": "Contacts"
+    },
+    "dapps" : {
+        "tab": "dApps"
+    },
+    "profile-types" : {
+        "personal": "Personal",
+        "business": "Business",
+        "alias": "Alias"
+    },
+    "profile-detail" : {
+        "header" : "Details",
+        "name": "Name",
+        "description": "Description",
+        "public": "Public",
+        "avatar" : "Avatar",
+        "home" : "Home",
+        "type": "Type"
+    },
+    "contact-types" : {
+        "family": { 
+            "label" : "Family",
+            "spouse" : "Spouse",
+            "sibling" : "Sibling",
+            "child" : "Child",
+            "cousin" : "Cousin",
+            "parent" : "Parent",
+            "parent-sibling" : "Parent Sibling"
+        },
+        "business": { 
+            "label" : "Business",
+            "customer" : "Customer",
+            "consusltant" : "Consultant"
+        },
+        "social": {
+            "label" : "Social",
+            "follower" : "Follower",
+            "following" : "Following"
+        }
+    },
+    "contact-detail" : {
+        "header" : "Details",
+        "name": "Name",
+        "avatar" : "Avatar",
+        "home" : "Home",
+        "type": "Type"
+    }
+}
